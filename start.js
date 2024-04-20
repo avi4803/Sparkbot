@@ -8,14 +8,13 @@ back_button.addEventListener("click",()=>{
 
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, onValue, set, once, update} from "firebase/database";
-
 const firebaseConfig = {
   databaseURL: "https://sparkbot-ee008-default-rtdb.firebaseio.com/",
 };
 
 const app = initializeApp(firebaseConfig)
 const database = getDatabase(app);
-const data1Ref = ref(database, 'Roverdata/distance')
+const data1Ref = ref(database, 'Roverdata/Moisture')
 
 var container = document.querySelector(".container");
 
