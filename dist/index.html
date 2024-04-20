@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="upper_bar">
+        <h1 id="team_name">SPARKBOT</h1>
+    </div>
+    <div class="left_container">
+            <button class="buttons" id="home"><img src="home_icon.svg" style="height: 5vh; margin: 0px;"></button>
+            <button class="buttons" id="rover"><img src="rover_icon_small.svg" style="height: 5vh; margin: 0px;"></button>
+            <button class="buttons" id="about_us"><img src="about_us_icon.svg" style="height: 7vh; margin: 0px;"></button>
+            <button class="buttons" id="technologies_used"><img src="technologies_icon.svg" style="height: 6vh; margin: 0px;"></button>
+    </div>
+    <div class="right_container">
+        <div class="text_container"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum exercitationem commodi sapiente id amet, illo at odio omnis cumque mollitia esse! Culpa vitae ad ipsam temporibus nesciunt! Ut, officia?
+        </p></div>
+        <img src="blob.svg" id="blob">
+        <button id="get_started"><p id="start">Start</p><img src="arrow.svg" style="height: 8vh;" ></button>
+        <img src="rover_1.jpg" id="rover_1">
+    </div>
+    <script>
+        let start_button = document.querySelector("#get_started");
+        start_button.addEventListener("click",()=>{
+            window.location.href = "start.html";
+        });
+
+        let rover_button = document.querySelector("#rover");
+        rover_button.addEventListener("click",()=>{
+            window.location.href = "rover.html";
+        });
+
+        let about_us_button = document.querySelector("#about_us");
+        about_us_button.addEventListener("click",()=>{
+            window.location.href = "about_us.html";
+        });
+
+        let technology_button = document.querySelector("#technologies_used");
+        technology_button.addEventListener("click",()=>{
+            window.location.href = "technology.html";
+        });
+    </script>
+</body>
+</html>
