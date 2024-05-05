@@ -1,4 +1,4 @@
-# Sparkbot
+# Agrobot
 A bot that can detect can detect soil quality,  can send data on the website, perform autonomous mapping and can be controlled over the internet.
 
   - Detection of Soil Quality: Utilizing moisture sensors and possibly other sensors to assess soil quality parameters such as pH, nutrient levels, temperature, etc.
